@@ -8,5 +8,7 @@
 <bean class="com.takeo.pojo.Student" id="student">
 <property name="message"><value>This is a Student Message</value> </property>
 <property name="sno"><value>1</value></property>
+<property name="Fname"><value>Nitish</value></property>
+<property name="Lname"><value>Kafle</value></property>
 </bean>
 </beans>

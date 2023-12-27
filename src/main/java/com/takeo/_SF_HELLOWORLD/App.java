@@ -10,8 +10,10 @@ public class App
     {
     	BeanFactory factory = new XmlBeanFactory(new ClassPathResource("com\\takeo\\config\\spring.xml"));
     	Object obj = factory.getBean("student");
-    	Student h = (Student)obj;
-    	System.out.println(h.getMessage());
-    	System.out.println(h.getSno());
+    	Student stu = (Student)obj;
+    	System.out.println(stu.getMessage());
+    	System.out.println(stu.getSno());
+    	System.out.println(stu.getFname());
+    	System.out.println(stu.getLname());
     }
 }
